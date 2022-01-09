@@ -17,18 +17,35 @@
   <meta name="keywords" content="">
   
     <meta property="og:type" content="website">
-<meta property="og:title" content="页面走丢啦~">
-<meta property="og:url" content="http://example.com/404.html">
+<meta property="og:title" content="talking.title">
+<meta property="og:url" content="http://example.com/talking/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-01-09T07:38:14.000Z">
+<meta property="article:modified_time" content="2022-01-09T07:38:36.863Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary_large_image">
   
   
-  <title>页面走丢啦~ - Hexo</title>
+  <title>talking.title - Hexo</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
 
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4/github-markdown.min.css" />
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hint.css@2/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10/styles/github-gist.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.css" />
+  
 
 
 <!-- 主题依赖的图标库，不要自行修改 -->
@@ -55,7 +72,7 @@
 
 
 <body>
-  <header style="height: 85vh;">
+  <header style="height: 60vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
@@ -191,12 +208,12 @@
 </nav>
 
     <div class="banner" id="banner" parallax=true
-         style="background: url('/img/default.png') no-repeat center center;
+         style="background: url('/img/bg/bg.jpg') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="Page not found">
+            <span class="h2" id="subtitle" title="随便说说# 打字机内容">
               
             </span>
 
@@ -211,16 +228,37 @@
 
   <main>
     
-      
+      <div class="container nopadding-x-md">
+        <div class="py-5" id="board"
+          >
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
 
-<script>
-  function redirect() {
-    location.href = "/";
-  }
+<article class="markdown-body">
+  
+  <hr>
+  <script  src="https://cdn.staticaly.com/gh/spaceskynet/Artitalk/master/dist/js/artitalk.min.js" ></script>
+    <div id="artitalk_main"></div>
+    <script>
+        new Artitalk({
+            appId: 'w1OG15e8RpWckK3lsVLadJJG-gzGzoHsz',
+            appKey: 'T0uvS2FPAtT4Y3CxO2ss60Mo',
+            serverURL: 'https://w1og15e8.lc-cn-n1-shared.com',
+            atComment: 0,
+cssUrl: 'https://cdn.staticaly.com/gh/spaceskynet/Artitalk/master/dist/css/artitalk.min.css',
+        })
+    </script>
+</article>
 
-  //setTimeout(redirect, 3000)
-</script>
 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     
 
     
@@ -328,6 +366,19 @@
   
 
 
+
+  
+    <script  src="https://cdn.jsdelivr.net/npm/tocbot@4/dist/tocbot.min.js" ></script>
+  
+  
+    <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.js" ></script>
+  
+  
+    <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4/anchor.min.js" ></script>
+  
+  
+    <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js" ></script>
+  
 
 
 
